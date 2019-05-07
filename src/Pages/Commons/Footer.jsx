@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function Footer() {
     return (
@@ -8,37 +9,37 @@ function Footer() {
                     <div className="col-lg-2 col-md-6 single-footer-widget">
                         <h4>Top Products</h4>
                         <ul>
-                            <li><a href="#">Managed Website</a></li>
-                            <li><a href="#">Manage Reputation</a></li>
-                            <li><a href="#">Power Tools</a></li>
-                            <li><a href="#">Marketing Service</a></li>
+                            <li><Link to='#' >Managed Website</Link></li>
+                            <li><Link to='#' >Manage Reputation</Link></li>
+                            <li><Link to='#' >Power Tools</Link></li>
+                            <li><Link to='#' >Marketing Service</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-6 single-footer-widget">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Brand Assets</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                            <li><Link to='#' >Jobs</Link></li>
+                            <li><Link to='#' >Brand Assets</Link></li>
+                            <li><Link to='#' >Investor Relations</Link></li>
+                            <li><Link to='#' >Terms of Service</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-6 single-footer-widget">
                         <h4>Features</h4>
                         <ul>
-                            <li><a href="#">Jobs</a></li>
-                            <li><a href="#">Brand Assets</a></li>
-                            <li><a href="#">Investor Relations</a></li>
-                            <li><a href="#">Terms of Service</a></li>
+                            <li><Link to='#' >Jobs</Link></li>
+                            <li><Link to='#' >Brand Assets</Link></li>
+                            <li><Link to='#' >Investor Relations</Link></li>
+                            <li><Link to='#' >Terms of Service</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-6 single-footer-widget">
                         <h4>Resources</h4>
                         <ul>
-                            <li><a href="#">Guides</a></li>
-                            <li><a href="#">Research</a></li>
-                            <li><a href="#">Experts</a></li>
-                            <li><a href="#">Agencies</a></li>
+                            <li><Link to='#' >Guides</Link></li>
+                            <li><Link to='#' >Research</Link></li>
+                            <li><Link to='#' >Experts</Link></li>
+                            <li><Link to='#' >Agencies</Link></li>
                         </ul>
                     </div>
                     <div className="col-lg-4 col-md-6 single-footer-widget">
@@ -68,10 +69,10 @@ function Footer() {
                             href="https://colorlib.com" target="_blank">Colorlib</a>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
                     <div className="col-lg-4 col-md-12 footer-social">
-                        <a href="#"><i className="fa fa-facebook"/></a>
-                        <a href="#"><i className="fa fa-twitter"/></a>
-                        <a href="#"><i className="fa fa-dribbble"/></a>
-                        <a href="#"><i className="fa fa-behance"/></a>
+                        <Link to='#' ><i className="fa fa-facebook"/></Link>
+                        <Link to='#' ><i className="fa fa-twitter"/></Link>
+                        <Link to='#' ><i className="fa fa-dribbble"/></Link>
+                        <Link to='#' ><i className="fa fa-behance"/></Link>
                     </div>
                 </div>
             </div>
