@@ -10,46 +10,46 @@ class Menu extends Component {
                         <Link to={'/'} className="nav-link">Home</Link>
                     </li>
                     <li className="nav-item submenu dropdown">
-                        <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
-                           role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false">Shop</Link>
                         <ul className="dropdown-menu">
                             <li className="nav-item">
-                                <a className="nav-link" href="category.html">Shop Category</a>
+                                <Link className="nav-link" to="#">Shop Category</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="single-product.html">Product
-                                    Details</a>
+                                <Link className="nav-link" to="single-product.html">Product
+                                    Details</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="checkout.html">Product
-                                    Checkout</a>
+                                <Link className="nav-link" to="checkout.html">Product
+                                    Checkout</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="cart.html">Shopping Cart</a>
+                                <Link className="nav-link" to="cart.html">Shopping Cart</Link>
                             </li>
                         </ul>
                     </li>
                     <li className="nav-item submenu dropdown">
-                        <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
-                           role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false">Blog</Link>
                         <ul className="dropdown-menu">
                             <li className="nav-item">
-                                <a className="nav-link" href="blog.html">Blog</a>
+                                <Link className="nav-link" to="blog.html">Blog</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="single-blog.html">Blog Details</a>
+                                <Link className="nav-link" to="single-blog.html">Blog Details</Link>
                             </li>
                         </ul>
                     </li>
                     <li className="nav-item submenu dropdown">
-                        <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
-                           role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <Link to="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
+                           role="button" aria-haspopup="true" aria-expanded="false">Pages</Link>
                         <ul className="dropdown-menu">
                             <li className="nav-item">
-                                <a className="nav-link" href="tracking.html">Tracking</a>
+                                <Link className="nav-link" to="tracking.html">Tracking</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="elements.html">Elements</a>
+                                <Link className="nav-link" to="elements.html">Elements</Link>
                             </li>
                         </ul>
                     </li>
