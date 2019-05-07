@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom';
 
 class StartFeature extends Component {
     render() {
@@ -8,37 +9,37 @@ class StartFeature extends Component {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-feature">
-                                <a href="#" className="title">
+                                <Link to='#' className="title">
                                     <i className="flaticon-money"/>
                                     <h3>Money back gurantee</h3>
-                                </a>
+                                </Link>
                                 <p>Shall open divide a one</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="single-feature">
-                                <a href="#" className="title">
+                                <Link to='#' className="title">
                                     <i className="flaticon-truck"/>
                                     <h3>Free Delivery</h3>
-                                </a>
+                                </Link>
                                 <p>Shall open divide a one</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="single-feature">
-                                <a href="#" className="title">
+                                <Link to='#' className="title">
                                     <i className="flaticon-support"/>
                                     <h3>Alway support</h3>
-                                </a>
+                                </Link>
                                 <p>Shall open divide a one</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="single-feature">
-                                <a href="#" className="title">
+                                <Link to='#' className="title">
                                     <i className="flaticon-blockchain"/>
                                     <h3>Secure payment</h3>
-                                </a>
+                                </Link>
                                 <p>Shall open divide a one</p>
                             </div>
                         </div>
