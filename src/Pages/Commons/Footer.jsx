@@ -66,7 +66,7 @@ function Footer() {
                     <p className="footer-text m-0 col-lg-8 col-md-12">{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                         Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o"
                                                                                         aria-hidden="true"/> by <a
-                            href="https://colorlib.com" target="_blank">Colorlib</a>
+                            href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
                         {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
                     <div className="col-lg-4 col-md-12 footer-social">
                         <Link to='#' ><i className="fa fa-facebook"/></Link>
