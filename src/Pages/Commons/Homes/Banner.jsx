@@ -18,7 +18,6 @@ class Banner extends Component {
                     </div>
                 </div>
             </section>
-
         )
     }
 }

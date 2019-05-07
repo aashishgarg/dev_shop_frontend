@@ -17,8 +17,9 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src={require("../../../Assets/img/product/feature-product/f-p-1.jpg")}
-                                     alt={'Product'}/>
+                                <Link to='/products_list' >
+                                    <img className="img-fluid w-100" src={require("../../../Assets/img/product/feature-product/f-p-1.jpg")} alt={'Product'}/>
+                                </Link>
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -45,7 +46,9 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src= { require("../../../Assets/img/product/feature-product/f-p-2.jpg")} alt=""/>
+                                <Link to='/products_list' >
+                                    <img className="img-fluid w-100" src= { require("../../../Assets/img/product/feature-product/f-p-2.jpg")} alt=""/>
+                                </Link>
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -72,7 +75,9 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/feature-product/f-p-3.jpg")} alt=""/>
+                                <Link to='/products_list' >
+                                    <img className="img-fluid w-100" src={ require("../../../Assets/img/product/feature-product/f-p-3.jpg")} alt=""/>
+                                </Link>
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>

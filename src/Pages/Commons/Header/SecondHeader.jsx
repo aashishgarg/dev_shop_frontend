@@ -10,7 +10,7 @@ class SecondHeader extends Component {
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light w-100">
                         {/* Brand and toggle get grouped for better mobile display */}
-                        <Link className="navbar-brand logo_h" href="index.html">
+                        <Link className="navbar-brand logo_h" to="/">
                             <img src={require("../../../Assets/img/logo.png")} alt='Logo' />
                         </Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
