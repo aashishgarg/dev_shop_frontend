@@ -18,11 +18,13 @@ import Header from './Pages/Commons/Header';
 import Footer from './Pages/Commons/Footer';
 import Contact from "./Pages/Contact";
 import OrderTracking from "./Pages/OrderTracking";
+import Login from './Pages/Login';
 
 const Routing = props => (
   <div>
     <Switch>
        <Route path='/' exact component={Home} />
+       <Route path='/login' exact component={Login} />
        <Route path='/contact' exact component={Contact} />
        <Route path='/tracking' exact component={OrderTracking} />
       {/* <Route path="/about" component={About} /> */}
