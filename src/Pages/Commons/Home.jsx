@@ -17,8 +17,8 @@ class Home extends Component {
                 <NewProds/>
                 <InspiredProds/>
             </div>
-        )
-    }
+        );
+    };
 }
 
-export default Home
+export default Home;

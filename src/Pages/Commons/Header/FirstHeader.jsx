@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const FirstHeader = () => (
     <div className="top_menu">
@@ -19,14 +20,10 @@ const FirstHeader = () => (
                                 </a>
                             </li>
                             <li>
-                                <a href="tracking.html">
-                                    track order
-                                </a>
+                                <Link to={'/tracking'} >track order</Link>
                             </li>
                             <li>
-                                <a href="contact.html">
-                                    Contact Us
-                                </a>
+                                <Link to={'/contact'}>Contact Us</Link>
                             </li>
                         </ul>
                     </div>

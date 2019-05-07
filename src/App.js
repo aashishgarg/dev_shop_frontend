@@ -16,11 +16,15 @@ import "./Assets/css/responsive.css"
 import Home from './Pages/Commons/Home';
 import Header from './Pages/Commons/Header';
 import Footer from './Pages/Commons/Footer';
+import Contact from "./Pages/Contact";
+import OrderTracking from "./Pages/OrderTracking";
 
 const Routing = props => (
   <div>
     <Switch>
-      {/* <Route path="/" exact component={Home} /> */}
+       <Route path='/' exact component={Home} />
+       <Route path='/contact' exact component={Contact} />
+       <Route path='/tracking' exact component={OrderTracking} />
       {/* <Route path="/about" component={About} /> */}
       {/* <Route path="/users" component={User} /> */}
       {/* <Route path="/login" component={Login} /> */}
@@ -31,9 +35,7 @@ const Routing = props => (
 function App() {
   return (
     <Router>
-      {/* <SideNav/> */}
         <Header />
-        <Home />
         <Routing/>
         <Footer/>
     </Router>
