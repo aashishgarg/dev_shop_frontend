@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom';
 
 class Banner extends Component {
     render() {
@@ -11,7 +12,7 @@ class Banner extends Component {
                                 <p className="sub text-uppercase">men Collection</p>
                                 <h3><span>Show</span> Your <br/>Personal <span>Style</span></h3>
                                 <h4>Fowl saw dry which a above together place.</h4>
-                                <a className="main_btn mt-40" href="#">View Collection</a>
+                                <Link className="main_btn mt-40" to="#">View Collection</Link>
                             </div>
                         </div>
                     </div>

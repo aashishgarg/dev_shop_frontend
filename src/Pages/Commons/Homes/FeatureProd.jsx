@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function FeatureProd() {
     return (
@@ -16,23 +17,24 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/feature-product/f-p-1.jpg")} alt=""/>
+                                <img className="img-fluid w-100" src={require("../../../Assets/img/product/feature-product/f-p-1.jpg")}
+                                     alt={'Product'}/>
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -45,21 +47,21 @@ function FeatureProd() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src= { require("../../../Assets/img/product/feature-product/f-p-2.jpg")} alt=""/>
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Red women purses</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -72,21 +74,21 @@ function FeatureProd() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/feature-product/f-p-3.jpg")} alt=""/>
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Men stylist Smart Watch</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './Menu';
 import RightMenu from "./RightMenu";
+import {Link} from 'react-router-dom';
 
 class SecondHeader extends Component {
     render(){
@@ -9,9 +10,9 @@ class SecondHeader extends Component {
                 <div className="container">
                     <nav className="navbar navbar-expand-lg navbar-light w-100">
                         {/* Brand and toggle get grouped for better mobile display */}
-                        <a className="navbar-brand logo_h" href="index.html">
-                            <img src={require('../../../Assets/img/logo.png')} />
-                        </a>
+                        <Link className="navbar-brand logo_h" href="index.html">
+                            <img src={require("../../../Assets/img/logo.png")} alt='Logo' />
+                        </Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">

@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function InspiredProds() {
     return (
@@ -18,21 +19,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i1.jpg")} alt=''/>
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -45,21 +46,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i2.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -72,21 +73,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i3.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -99,21 +100,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i4.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -126,21 +127,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i5.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -153,21 +154,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i6.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -180,21 +181,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i7.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>
@@ -207,21 +208,21 @@ function InspiredProds() {
                             <div className="product-img">
                                 <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i8.jpg")} alt='' />
                                 <div className="p_icon">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="ti-eye"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-heart"/>
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="ti-shopping-cart"/>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="product-btm">
-                                <a href="#" className="d-block">
+                                <Link to="#" className="d-block">
                                     <h4>Latest men’s sneaker</h4>
-                                </a>
+                                </Link>
                                 <div className="mt-3">
                                     <span className="mr-4">$25.00</span>
                                     <del>$35.00</del>

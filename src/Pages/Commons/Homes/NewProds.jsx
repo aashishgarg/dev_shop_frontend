@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function NewProds() {
     return (
@@ -21,7 +22,7 @@ function NewProds() {
                                 <img className="img-fluid" src={ require("../../../Assets/img/product/new-product/new-product1.png")} alt="" />
                             </div>
                             <h4>$120.70</h4>
-                            <a href="#" className="main_btn">Add to cart</a>
+                            <Link to="#" className="main_btn">Add to cart</Link>
                         </div>
                     </div>
                     <div className="col-lg-6 mt-5 mt-lg-0">
@@ -31,21 +32,21 @@ function NewProds() {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n1.jpg") } alt=""/>
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link to="#">
                                                 <i className="ti-eye"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-heart"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-shopping-cart"/>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link to="#" className="d-block">
                                             <h4>Nike latest sneaker</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -58,21 +59,21 @@ function NewProds() {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n2.jpg") } alt=""/>
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link to="#">
                                                 <i className="ti-eye"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-heart"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-shopping-cart"/>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link to="#" className="d-block">
                                             <h4>Men’s denim jeans</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -85,21 +86,21 @@ function NewProds() {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n3.jpg" )} alt=""/>
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link to="#">
                                                 <i className="ti-eye"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-heart"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-shopping-cart"/>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link to="#" className="d-block">
                                             <h4>quartz hand watch</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>
@@ -112,21 +113,21 @@ function NewProds() {
                                     <div className="product-img">
                                         <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n4.jpg")} alt=""/>
                                         <div className="p_icon">
-                                            <a href="#">
+                                            <Link to="#">
                                                 <i className="ti-eye"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-heart"/>
-                                            </a>
-                                            <a href="#">
+                                            </Link>
+                                            <Link to="#">
                                                 <i className="ti-shopping-cart"/>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                     <div className="product-btm">
-                                        <a href="#" className="d-block">
+                                        <Link to="#" className="d-block">
                                             <h4>adidas sport shoe</h4>
-                                        </a>
+                                        </Link>
                                         <div className="mt-3">
                                             <span className="mr-4">$25.00</span>
                                             <del>$35.00</del>

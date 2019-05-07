@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class RightMenu extends Component {
     render(){
@@ -6,24 +7,24 @@ class RightMenu extends Component {
             <div className="col-lg-5 pr-0">
                 <ul className="nav navbar-nav navbar-right right_nav pull-right">
                     <li className="nav-item">
-                        <a href="#" className="icons">
+                        <Link to="#" className="icons">
                             <i className="ti-search" aria-hidden="true"/>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="icons">
+                        <Link to="#" className="icons">
                             <i className="ti-shopping-cart"/>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="icons">
+                        <Link to="#" className="icons">
                             <i className="ti-user" aria-hidden="true"/>
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="icons">
+                        <Link to="#" className="icons">
                             <i className="ti-heart" aria-hidden="true"/>
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
