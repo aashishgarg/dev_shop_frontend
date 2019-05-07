@@ -19,7 +19,7 @@ function NewProds() {
                             <h5 className="text-uppercase">collection of 2019</h5>
                             <h3 className="text-uppercase">Men’s summer t-shirt</h3>
                             <div className="product-img">
-                                <img className="img-fluid" src="img/product/new-product/new-product1.png" alt={'Product'}/>
+                                <img className="img-fluid" src={ require("../../../Assets/img/product/new-product/new-product1.png")} alt="" />
                             </div>
                             <h4>$120.70</h4>
                             <Link to="#" className="main_btn">Add to cart</Link>
@@ -30,7 +30,7 @@ function NewProds() {
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-product">
                                     <div className="product-img">
-                                        <img className="img-fluid w-100" src="img/product/new-product/n1.jpg" alt={'Product'}/>
+                                        <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n1.jpg") } alt=""/>
                                         <div className="p_icon">
                                             <Link to="#">
                                                 <i className="ti-eye"/>
@@ -57,7 +57,7 @@ function NewProds() {
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-product">
                                     <div className="product-img">
-                                        <img className="img-fluid w-100" src="img/product/new-product/n2.jpg" alt={'Product'}/>
+                                        <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n2.jpg") } alt=""/>
                                         <div className="p_icon">
                                             <Link to="#">
                                                 <i className="ti-eye"/>
@@ -84,7 +84,7 @@ function NewProds() {
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-product">
                                     <div className="product-img">
-                                        <img className="img-fluid w-100" src="img/product/new-product/n3.jpg" alt={'Product'}/>
+                                        <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n3.jpg" )} alt=""/>
                                         <div className="p_icon">
                                             <Link to="#">
                                                 <i className="ti-eye"/>
@@ -111,7 +111,7 @@ function NewProds() {
                             <div className="col-lg-6 col-md-6">
                                 <div className="single-product">
                                     <div className="product-img">
-                                        <img className="img-fluid w-100" src="img/product/new-product/n4.jpg" alt={'Product'}/>
+                                        <img className="img-fluid w-100" src={ require("../../../Assets/img/product/new-product/n4.jpg")} alt=""/>
                                         <div className="p_icon">
                                             <Link to="#">
                                                 <i className="ti-eye"/>

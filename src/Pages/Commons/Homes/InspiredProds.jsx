@@ -17,7 +17,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i1.jpg" alt='Product'/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i1.jpg")} alt=''/>
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -44,7 +44,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i2.jpg" alt='Product'/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i2.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -71,7 +71,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i3.jpg" alt='Product'/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i3.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -98,7 +98,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i4.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i4.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -125,7 +125,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i5.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i5.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -152,7 +152,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i6.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i6.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -179,7 +179,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i7.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i7.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -206,7 +206,7 @@ function InspiredProds() {
                     <div className="col-lg-3 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/inspired-product/i8.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/inspired-product/i8.jpg")} alt='' />
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>

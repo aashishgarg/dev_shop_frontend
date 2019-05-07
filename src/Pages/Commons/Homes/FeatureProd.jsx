@@ -17,7 +17,7 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="/..assets/img/product/feature-product/f-p-1.jpg"
+                                <img className="img-fluid w-100" src={require("../../../Assets/img/product/feature-product/f-p-1.jpg")}
                                      alt={'Product'}/>
                                 <div className="p_icon">
                                     <Link to="#">
@@ -45,7 +45,7 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/feature-product/f-p-2.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src= { require("../../../Assets/img/product/feature-product/f-p-2.jpg")} alt=""/>
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
@@ -72,7 +72,7 @@ function FeatureProd() {
                     <div className="col-lg-4 col-md-6">
                         <div className="single-product">
                             <div className="product-img">
-                                <img className="img-fluid w-100" src="img/product/feature-product/f-p-3.jpg" alt={'Product'}/>
+                                <img className="img-fluid w-100" src={ require("../../../Assets/img/product/feature-product/f-p-3.jpg")} alt=""/>
                                 <div className="p_icon">
                                     <Link to="#">
                                         <i className="ti-eye"/>
