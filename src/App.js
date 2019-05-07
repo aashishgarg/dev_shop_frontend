@@ -19,16 +19,18 @@ import Footer from './Pages/Commons/Footer';
 import Contact from "./Pages/Contact";
 import OrderTracking from "./Pages/OrderTracking";
 import Login from './Pages/Login';
+import ProductList from './Pages/Commons/Components/Products/ProductList';
+import ShowItems from './Pages/Commons/Components/Products/ShowItems';
 
 const Routing = props => (
   <div>
     <Switch>
-       <Route path='/' exact component={Home} />
-       <Route path='/login' exact component={Login} />
-       <Route path='/contact' exact component={Contact} />
-       <Route path='/tracking' exact component={OrderTracking} />
-      {/* <Route path="/about" component={About} /> */}
-      {/* <Route path="/users" component={User} /> */}
+        <Route path='/' exact component={Home} />
+        <Route path='/login' exact component={Login} />
+        <Route path='/contact' exact component={Contact} />
+        <Route path='/tracking' exact component={OrderTracking} />
+        <Route path="/products_list" component={ProductList} />
+      <Route path="/show_product" component={ShowItems} />
       {/* <Route path="/login" component={Login} /> */}
     </Switch>
   </div>

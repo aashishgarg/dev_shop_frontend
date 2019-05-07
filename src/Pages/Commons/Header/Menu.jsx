@@ -14,7 +14,7 @@ class Menu extends Component {
                            role="button" aria-haspopup="true" aria-expanded="false">Shop</Link>
                         <ul className="dropdown-menu">
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Shop Category</Link>
+                                <Link className="nav-link" to="/products_list">Shop Category</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="single-product.html">Product

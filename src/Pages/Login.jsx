@@ -15,8 +15,8 @@ function Login() {
                                 <div className="mt-10">
                                     <input type="password" name="password" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" required className="single-input" />
                                 </div>
-                                <div className="mt-10 col-md-4 offset-md-3">
-                                    <input type="submit" name="submit" style={{width:'100%'}} className="genric-btn success" />
+                                <div className="mt-10 col-md-4 offset-md-4">
+                                    <input type="submit" name="submit" style={{width:'100%'}} className="btn submit_btn" />
                                 </div>
                             </form>
                         </div>
