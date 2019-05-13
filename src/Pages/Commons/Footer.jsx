@@ -49,9 +49,7 @@ function Footer() {
                             <form target="_blank"
                                   action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01"
                                   method="get" className="form-inline">
-                                <input className="form-control" name="EMAIL" placeholder="Your Email Address"
-                                       onFocus="this.placeholder = ''" onBlur="this.placeholder = 'Your Email Address '"
-                                       required type="email"/>
+                                <input className="form-control" name="EMAIL" placeholder="Your Email Address" required type="email"/>
                                 <button className="click-btn btn btn-default">Subscribe</button>
                                 <div style={{position: 'absolute', left: '-5000px'}}>
                                     <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabIndex={-1} defaultValue

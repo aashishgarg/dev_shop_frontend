@@ -23,9 +23,9 @@ class ProductList extends Component {
                     </div>
                 </div>
             </section>
-            <section class="cat_product_area section_gap">
-                <div class="container">
-                    <div class="row flex-row-reverse">
+            <section className="cat_product_area section_gap">
+                <div className="container">
+                    <div className="row flex-row-reverse">
                         < Items/>
                         < Filters />
                     </div>
