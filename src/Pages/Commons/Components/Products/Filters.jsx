@@ -89,7 +89,7 @@ function Filters() {
                 <div className="widgets_inner">
                     <div className="range_item">
                     <div id="slider-range" />
-                    <div className>
+                    <div className="">
                         <label htmlFor="amount">Price : </label>
                         <input type="text" id="amount" readOnly />
                     </div>

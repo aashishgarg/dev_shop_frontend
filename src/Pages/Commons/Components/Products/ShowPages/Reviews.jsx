@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Review() {
     return(
@@ -6,16 +7,16 @@ function Review() {
             <div className="container">
                 <ul className="nav nav-tabs" id="myTab" role="tablist">
                     <li className="nav-item">
-                        <a className="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+                        <Link className="nav-link" id="home-tab" data-toggle="tab" to="#" role="tab" aria-controls="home" aria-selected="true">Description</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specification</a>
+                        <Link className="nav-link" id="profile-tab" data-toggle="tab" to="#profile" role="tab" aria-controls="profile" aria-selected="false">Specification</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Comments</a>
+                        <Link className="nav-link" id="contact-tab" data-toggle="tab" to="#contact" role="tab" aria-controls="contact" aria-selected="false">Comments</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews</a>
+                        <Link className="nav-link active" id="review-tab" data-toggle="tab" to="#review" role="tab" aria-controls="review" aria-selected="false">Reviews</Link>
                     </li>
                 </ul>
                 <div className="tab-content" id="myTabContent">
@@ -134,7 +135,7 @@ function Review() {
                             <div className="media-body">
                                 <h4>Blake Ruizfdssa</h4>
                                 <h5>12th Feb, 2017 at 05:56 pm</h5>
-                                <a className="reply_btn" href="#">Reply</a>
+                                <Link className="reply_btn" to="#">Reply</Link>
                             </div>
                             </div>
                             <p>
@@ -152,7 +153,7 @@ function Review() {
                             <div className="media-body">
                                 <h4>Blake Ruiz</h4>
                                 <h5>12th Feb, 2017 at 05:56 pm</h5>
-                                <a className="reply_btn" href="#">Reply</a>
+                                <Link className="reply_btn" to="#">Reply</Link>
                             </div>
                             </div>
                             <p>
@@ -170,7 +171,7 @@ function Review() {
                             <div className="media-body">
                                 <h4>Blake Ruiz</h4>
                                 <h5>12th Feb, 2017 at 05:56 pm</h5>
-                                <a className="reply_btn" href="#">Reply</a>
+                                <Link className="reply_btn" to="#">Reply</Link>
                             </div>
                             </div>
                             <p>
@@ -232,44 +233,44 @@ function Review() {
                             <h3>Based on 3 Reviews</h3>
                             <ul className="list">
                                 <li>
-                                <a href="#">5 Star
+                                <Link to="#">5 Star
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
-                                    <i className="fa fa-star" /> 01</a>
+                                    <i className="fa fa-star" /> 01</Link>
                                 </li>
                                 <li>
-                                <a href="#">4 Star
+                                <Link to="#">4 Star
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
-                                    <i className="fa fa-star" /> 01</a>
+                                    <i className="fa fa-star" /> 01</Link>
                                 </li>
                                 <li>
-                                <a href="#">3 Star
+                                <Link to="#">3 Star
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
-                                    <i className="fa fa-star" /> 01</a>
+                                    <i className="fa fa-star" /> 01</Link>
                                 </li>
                                 <li>
-                                <a href="#">2 Star
+                                <Link to="#">2 Star
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
-                                    <i className="fa fa-star" /> 01</a>
+                                    <i className="fa fa-star" /> 01</Link>
                                 </li>
                                 <li>
-                                <a href="#">1 Star
+                                <Link to="#">1 Star
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
                                     <i className="fa fa-star" />
-                                    <i className="fa fa-star" /> 01</a>
+                                    <i className="fa fa-star" /> 01</Link>
                                 </li>
                             </ul>
                             </div>
@@ -347,29 +348,29 @@ function Review() {
                         <p>Your Rating:</p>
                         <ul className="list">
                             <li>
-                            <a href="#">
+                            <Link to="#">
                                 <i className="fa fa-star" />
-                            </a>
+                            </Link>
                             </li>
                             <li>
-                            <a href="#">
+                            <Link to="#">
                                 <i className="fa fa-star" />
-                            </a>
+                            </Link>
                             </li>
                             <li>
-                            <a href="#">
+                            <Link to="#">
                                 <i className="fa fa-star" />
-                            </a>
+                            </Link>
                             </li>
                             <li>
-                            <a href="#">
+                            <Link to="#">
                                 <i className="fa fa-star" />
-                            </a>
+                            </Link>
                             </li>
                             <li>
-                            <a href="#">
+                            <Link to="#">
                                 <i className="fa fa-star" />
-                            </a>
+                            </Link>
                             </li>
                         </ul>
                         <p>Outstanding</p>
